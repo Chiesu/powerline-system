@@ -1,0 +1,10 @@
+schema_version = "1.0.0"
+id = "powerline_system"
+version = "0.2.5"
+name = "Powerline System"
+tagline = "Create live-linked pylons and automatically extend cable routes"
+maintainer = "Chiesu"
+type = "add-on"
+tags = ["3D View", "Animation"]
+blender_version_min = "5.2.0"
+license = ["SPDX:GPL-3.0-or-later"]
