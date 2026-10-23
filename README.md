@@ -6,14 +6,14 @@ Procedural powerline route builder for **Blender 5.2.1**. Download the installab
 
 ## Install
 
-<img width="1920" height="1080" alt="create-line" src="https://github.com/user-attachments/assets/1ec494c9-ce5c-4f6d-81a7-4612f1f69492" />
-
 1. Back up your scene. In Blender, open **Edit > Preferences > Get Extensions > Install from Disk**.
 2. Install `powerline_system-0.2.5.zip` directly, without extracting it. If a previous extension does not update cleanly, uninstall that version, restart Blender, then install v0.2.5.
 3. In the 3D Viewport, press `N` and open **Powerlines**.
 4. Select **2 | 4 | 6 | 7** and press **Create Line (2 Pylons)**. Two linked-mesh pylons and their live cable spans appear at the 3D cursor.
 5. Move the selected pylon with `G`, or rotate it with `R`. The parented attachment points and their cables follow.
 6. Use **Add Pylon + Connect** to extend the line as many times as needed. Each new support is automatically connected to its predecessor.
+
+<img width="1920" height="1080" alt="create-line" src="https://github.com/user-attachments/assets/1ec494c9-ce5c-4f6d-81a7-4612f1f69492" />
 
 ## Arm / conductor presets
 
