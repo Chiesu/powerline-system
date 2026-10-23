@@ -2,7 +2,11 @@
 
 Procedural powerline route builder for **Blender 5.2.1**. Download the installable ZIP from [Releases](https://github.com/Chiesu/powerline-system/releases/latest) (not GitHub's automatically generated source archive). Create two matching pylons, extend the route with one click, and move/rotate supports while all cables follow live. Built around the supplied lightweight edge-based pylon and the existing `GN_CableElectricity_FX` group.
 
+<img width="1920" height="1080" alt="hero" src="https://github.com/user-attachments/assets/e6ee7d1d-7707-4019-a25f-45b543922822" />
+
 ## Install
+
+<img width="1920" height="1080" alt="create-line" src="https://github.com/user-attachments/assets/1ec494c9-ce5c-4f6d-81a7-4612f1f69492" />
 
 1. Back up your scene. In Blender, open **Edit > Preferences > Get Extensions > Install from Disk**.
 2. Install `powerline_system-0.2.5.zip` directly, without extracting it. If a previous extension does not update cleanly, uninstall that version, restart Blender, then install v0.2.5.
@@ -31,6 +35,8 @@ The old 8-wire preset stored the internal value `4`, now reassigned to the 7-wir
 The addon detects obsolete mesh variants and missing apex anchors. If an update fails, it attempts to restore the previous set of connections. Use a backed-up `.blend` when upgrading.
 
 ## UI
+
+<img width="1920" height="1080" alt="route-settings" src="https://github.com/user-attachments/assets/02b72a29-81e7-49ad-9b53-4403f9d4a2a2" />
 
 - **Main actions:** Create Line, Add Pylon + Connect, global 2/4/6/7 selector.
 - **Cables:** Sag, Wind, Electricity switch (retains the source modifier defaults).
